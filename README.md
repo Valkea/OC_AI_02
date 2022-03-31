@@ -87,6 +87,6 @@ Click on the kernel and click change kernel you will be able to see the kernel y
 Once done with the project, the kernel can be removed using the following command:
 
 ```bash
-jupyter-kernelspec uninstall venv
+>>> jupyter-kernelspec uninstall venv
 ```
 
