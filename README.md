@@ -70,7 +70,8 @@ let's configure the virtual environment for Jypiter notebook
 #### Install jupyter kernel for the virtual environment using the following command:
 
 ```bash
->>> ipython kernel install --user --name=venv
+>>> pip install ipykernel
+>>> python -m ipykernel install --user --name=venv
 ```
 
 #### Run the jupyter notebook
@@ -84,9 +85,10 @@ Click on the kernel and click change kernel you will be able to see the kernel y
 ![alt text](medias/venv_selection.png)
 
 ## Uninstalling the venv kernel
-Once done with the project, the kernel can be removed using the following command:
+Once done with the project, the kernel can be listed and removed using the following commands:
 
 ```bash
->>> jupyter-kernelspec uninstall venv
+>>> jupyter kernelspec list
+>>> jupyter kernelspec uninstall venv
 ```
 
